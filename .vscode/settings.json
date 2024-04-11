@@ -176,7 +176,7 @@
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
   "[cpp]": {
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
   "[cuda-cpp]": {
