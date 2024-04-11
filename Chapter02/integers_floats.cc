@@ -3,7 +3,6 @@
 
 int main()
 {
-
     std::int8_t i1 = 0; // Signed 8bit
     std::uint8_t i2 = 0U; // Unsigned 8bit
 
@@ -18,6 +17,12 @@ int main()
 
     float f1 = 12.0F; // 32bit
     double d1 = 12.0; // 64bit
+
+    bool b1 = false;
+    bool b2 = true;
+
+    char c1 = 'A';
+    char c2 = 'z';
 
     return 0;
 }
