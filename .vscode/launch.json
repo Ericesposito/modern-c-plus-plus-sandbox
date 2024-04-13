@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/ericesposito/Dev/practice/udemy-courses/modern-c++/modern-c-plus-plus-sandbox/Chapter02/Exercise/Exercise",
-      "program": "/Users/ericesposito/Dev/practice/udemy-courses/modern-c++/modern-c-plus-plus-sandbox/Chapter02/Exercise/Exercise/build/Debug/outDebug"
+      "cwd": "/Users/ericesposito/Dev/practice/udemy-courses/modern-c++/modern-c-plus-plus-sandbox/Chapter03",
+      "program": "/Users/ericesposito/Dev/practice/udemy-courses/modern-c++/modern-c-plus-plus-sandbox/Chapter03/build/Debug/outDebug"
     }
   ]
 }
