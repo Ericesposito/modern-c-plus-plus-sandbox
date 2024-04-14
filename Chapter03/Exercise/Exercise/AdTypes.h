@@ -1,5 +1,6 @@
 #pragma once
 
+#include <array>
 #include <cstdint>
 
 #include "AdConstants.h"
@@ -8,6 +9,8 @@ namespace Ad
 {
 namespace Types
 {
+
+using namespace Ad::Constants;
 
 enum class LaneAssociationType
 {
@@ -27,6 +30,9 @@ struct VehicleType
 
 struct NeighborVehiclesType
 {
+    std::array<VehicleType, NUM_VEHICLES_ON_LANE> vehicles_left_lane;
+    std::array<VehicleType, NUM_VEHICLES_ON_LANE> vehicles_center_lane;
+    std::array<VehicleType, NUM_VEHICLES_ON_LANE> vehicles_right_lane;
 };
 
 } // namespace Types
